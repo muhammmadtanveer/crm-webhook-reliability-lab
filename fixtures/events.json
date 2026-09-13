@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "evt_1001",
+    "event_type": "lead.created",
+    "lead": {"email": "amina@example.test", "score": 92, "consent": true}
+  },
+  {
+    "event_id": "evt_1002",
+    "event_type": "lead.created",
+    "lead": {"email": "rahim@example.test", "score": 44, "consent": true}
+  },
+  {
+    "event_id": "evt_1003",
+    "event_type": "lead.updated",
+    "lead": {"email": "no-consent@example.test", "score": 99, "consent": false}
+  },
+  {
+    "event_id": "evt_1004",
+    "event_type": "lead.created",
+    "lead": {"score": 80, "consent": true}
+  }
+]
